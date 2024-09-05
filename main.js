@@ -211,9 +211,24 @@ const vmeBakselsDatering = [
     ["Proto-Steengoed", "1200 - 1325"]
 ]
 
-//14 VME Potten -> baksels en datering
+//14 VME Potten -> baksels
 const vmePotBaksel = [
-    ["<img src='/ArcheoOverhoor/images/vme_potten/kogelpot.png'>", "kogelpot, 800 - 1350"]
+    ["<img src='/ArcheoOverhoor/images/vme_potten/kogelpot.png'>", "kogelpot"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/badorf_walderberg.png'>", "badorf/walderberg"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/duisburg.png'>", "duisburg"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/elmpt.png'>", "elmpt"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/hessens_schortens.png'>", "hessens-schortens"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/hunneschans.png'>", "hunneschans"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/karolingisch_mayen.png'>", "karolingisch mayen"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/kogelpot_bezemstreek.png'>", "kogelpot bezemstreek"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/kogelpot_schelpgruis.png'>", "kogelpot schelpgruis"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/maaslandswit_andenne.png'>", "maaslandswit/andenne"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/merovingisch_ruwwandig_mayen.png'>", "merovingisch ruwandig/mayen"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/paffrath.png'>", "paffrath"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/pingsdorf.png'>", "pingsdorf"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/protosteengoed.png'>", "protosteengoed"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/reliefbandamfoor.png'>", "reliefbandamfoor"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/tating.png'>", "tating"]
 ]
 
 const selectbtn = document.querySelectorAll('#selectButton');
