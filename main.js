@@ -213,7 +213,7 @@ const vmeBakselsDatering = [
 
 //14 VME Potten -> baksels en datering
 const vmePotBaksel = [
-    ["<img src='/ArcheoOverhoor/images/kogelpot.png'>", "kogelpot, 800 - 1350"]
+    ["<img src='/ArcheoOverhoor/images/vme_potten/kogelpot.png'>", "kogelpot, 800 - 1350"]
 ]
 
 const selectbtn = document.querySelectorAll('#selectButton');
