@@ -340,6 +340,7 @@ function Answer(){
         repeat = false;
         currentTable = fouten;
         currentAsk = currentTable[x];
+        fouten = [];
         answer.value = "";
         console.log("repeat");
         Ask(currentAsk);
