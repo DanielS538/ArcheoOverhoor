@@ -214,7 +214,7 @@ const vmeBakselsDatering = [
 //14 VME Potten -> baksels
 const vmePotBaksel = [
     ["<img src='/ArcheoOverhoor/images/vme_potten/kogelpot.png'>", "kogelpot"],
-    ["<img src='/ArcheoOverhoor/images/vme_potten/badorf_walderberg.png'>", "badorf/walderberg"],
+    ["<img src='/ArcheoOverhoor/images/vme_potten/badorf_walderberg.png'>", "badorf/walberberg"],
     ["<img src='/ArcheoOverhoor/images/vme_potten/duisburg.png'>", "duisburg"],
     ["<img src='/ArcheoOverhoor/images/vme_potten/elmpt.png'>", "elmpt"],
     ["<img src='/ArcheoOverhoor/images/vme_potten/hessens_schortens.png'>", "hessens-schortens"],
@@ -233,7 +233,7 @@ const vmePotBaksel = [
 
 //15 VME scherven -> baksels
 const vmeScherfBaksel = [
-    ["<img class='img-fluid' src='/ArcheoOverhoor/images/vme_scherven/badorf_walderberg.jpg'>", "badorf/walderberg"],
+    ["<img class='img-fluid' src='/ArcheoOverhoor/images/vme_scherven/badorf_walderberg.jpg'>", "badorf/walberberg"],
     ["<img class='img-fluid' src='/ArcheoOverhoor/images/vme_scherven/duisburg.jpg'>", "duisburg"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/hessens_schortens.jpg'>", "hessens-schortens"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/karolingisch_mayen.jpg'>", "karolingisch mayen"],
