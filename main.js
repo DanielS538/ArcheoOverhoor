@@ -231,6 +231,30 @@ const vmePotBaksel = [
     ["<img src='/ArcheoOverhoor/images/vme_potten/tating.png'>", "tating"]
 ]
 
+//15 VME scherven -> baksels
+const vmeScherfBaksel = [
+    ["<img class='img-fluid' src='/ArcheoOverhoor/images/vme_scherven/badorf_walderberg.jpg'>", "badorf/walderberg"],
+    ["<img class='img-fluid' src='/ArcheoOverhoor/images/vme_scherven/duisburg.jpg'>", "duisburg"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/hessens_schortens.jpg'>", "hessens-schortens"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/karolingisch_mayen.jpg'>", "karolingisch mayen"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/kogelpot.jpg'>", "kogelpot"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/kogelpot_bezemstreek.jpg'>", "kogelpot bezemstreek"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/kogelpot_schelpgruis.jpg'>", "kogelpot schelpgruis"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/kogelpot_schelpgruis_2.jpg'>", "kogelpot schelpgruis"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/maaslandswit_andenne.jpg'>", "maaslandswit/andenne"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/maaslandswit_andenne_2.jpg'>", "maaslandswit/andenne"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/merovingisch_ruwwandig_mayen.jpg'>", "merovingisch ruwwandig/mayen"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/paffrath.jpg'>", "paffrath"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/paffrath_2.jpg'>", "paffrath"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/pingsdorf.jpg'>", "pingsdorf"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/pingsdorf_2.jpg'>", "pingsdorf"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/protosteengoed.jpg'>", "protosteengoed"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/protosteengoed_1.jpg'>", "protosteengoed"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/reliefbandamfoor.jpg'>", "reliefbandamfoor"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/tating.jpg'>", "tating"]
+
+]
+
 const selectbtn = document.querySelectorAll('#selectButton');
 const btn = document.getElementById('answerButton');
 const answer = document.getElementById('answer');
@@ -304,6 +328,9 @@ function Select(){
             break;
         case "14":
             Overhoor(vmePotBaksel);
+            break;
+        case "15":
+            Overhoor(vmeScherfBaksel);
             break;
     }
 }

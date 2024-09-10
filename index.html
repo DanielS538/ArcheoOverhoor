@@ -11,8 +11,10 @@
 
 <body class="d-flex flex-column min-vh-100 bg-dark text-white">
 <div id="questionBlock" class="jumbotron bg-secondary text-center py-2">
-    <p id="feedback"></p>
-    <p id="question"></p>
+    <div id="questionContainer" class="col-sm-6 mx-auto">
+        <p id="feedback"></p>
+        <p id="question"></p>
+    </div>
     <input id="answer" type="text"></input>
     <button class="btn btn-dark" id="answerButton">Insert</button>
 </div>
@@ -52,6 +54,7 @@
             <div class="btn-group-vertical">
                 <button type="button" value="13" id="selectButton" class="btn btn-secondary">VME baksels -> jaartallen</button>
                 <button type="button" value="14" id="selectButton" class="btn btn-secondary">VME potten -> baksels</button>
+                <button type="button" value="15" id="selectButton" class="btn btn-secondary">VME scherven -> baksels</button>
             </div>
         </div>
     </div>
