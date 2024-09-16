@@ -196,8 +196,8 @@ const vmeBakselsDatering = [
     ["Hessens-Schortens", "500 - 900"],
     ["Kogelpot", "800 - 1350"],
     ["Kogelpot, schelpgruismagering", "800 - 1000"],
-    ["Kogelbot, bezemstreek", "1200 - 1300"],
-    ["Paffrath", "900 - 1250"],
+    ["Kogelpot, bezemstreek", "1200 - 1300"],
+    ["Paffrath", "900 - 1250"]/*,
     ["Elmpt", "1100 - 1400"],
     ["Merovingisch ruwwandig of Merovingisch Mayen", "400 - 750"],
     ["Badorf/Walderberg", "725 - 900"],
@@ -208,7 +208,7 @@ const vmeBakselsDatering = [
     ["Karolingisch Mayen", "750 - 900"],
     ["Tating", "750 - 900"],
     ["Duisburg", "900 - 1000"],
-    ["Proto-Steengoed", "1200 - 1325"]
+    ["Proto-Steengoed", "1200 - 1325"]*/
 ]
 
 //14 VME Potten -> baksels
@@ -251,8 +251,45 @@ const vmeScherfBaksel = [
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/protosteengoed.jpg'>", "protosteengoed"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/protosteengoed_1.jpg'>", "protosteengoed"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/reliefbandamfoor.jpg'>", "reliefbandamfoor"],
-    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/tating.jpg'>", "tating"]
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/tating.jpg'>", "tating"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/elmpt.jpg'>", "elmpt"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/badorf_walberberg_2.jpg'>", "badorf/walberberg"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/merovingisch_ruwwandig_mayen_2.jpg'>", "merovingisch ruwwandig/mayen"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/reliefbandamfoor_2.jpg'>", "reliefbandamfoor"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/hunneschans.jpg'>", "hunneschans"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/hunneschans_2.jpg'>", "hunneschans"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/vme_scherven/merovingisch_ruwwandig_mayen_3.jpg'>", "merovingisch ruwwandig/mayen"],
+]
 
+//16 ABR Materiaal
+
+const abrMat = [
+    ["Glas", "gls"],
+    ["Keramiek", "ker"],
+    ["metaal onbekend", "mxx"],
+    ["brons", "mbr"],
+    ["goud", "mau"],
+    ["ijzer", "mfe"],
+    ["koper", "mcu"],
+    ["lood", "mpb"],
+    ["messing", "mme"],
+    ["tin", "msn"],
+    ["zilver", "mag"],
+    ["organisch onbekend", "oxx"],
+    ["dierlijk bot", "obd"],
+    ["menselijk bot", "omb"],
+    ["bot onbekend", "oxb"],
+    ["gewei", "odg"],
+    ["hoorn", "odh"],
+    ["hout / houtskool", "oph"],
+    ["ivoor", "odi"],
+    ["leer / huid", "odl"],
+    ["organisch dierlijk onbekend", "odx"],
+    ["organisch menselijk onbekend", "omx"],
+    ["organisch plantaardig onbekend", "opx"],
+    ["schelp", "ods"],
+    ["textiel", "ote"],
+    ["steen onbekend", "sxx"]
 ]
 
 const selectbtn = document.querySelectorAll('#selectButton');
@@ -331,6 +368,9 @@ function Select(){
             break;
         case "15":
             Overhoor(vmeScherfBaksel);
+            break;
+        case "16":
+            Overhoor(abrMat);
             break;
     }
 }
