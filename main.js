@@ -276,7 +276,7 @@ const abrMat = [
     ["tin", "msn"],
     ["zilver", "mag"],
     ["organisch onbekend", "oxx"],
-    ["dierlijk bot", "obd"],
+    ["dierlijk bot", "odb"],
     ["menselijk bot", "omb"],
     ["bot onbekend", "oxb"],
     ["gewei", "odg"],
