@@ -197,7 +197,7 @@ const vmeBakselsDatering = [
     ["Kogelpot", "800 - 1350"],
     ["Kogelpot, schelpgruismagering", "800 - 1000"],
     ["Kogelpot, bezemstreek", "1200 - 1300"],
-    ["Paffrath", "900 - 1250"]/*,
+    ["Paffrath", "900 - 1250"],
     ["Elmpt", "1100 - 1400"],
     ["Merovingisch ruwwandig of Merovingisch Mayen", "400 - 750"],
     ["Badorf/Walderberg", "725 - 900"],
@@ -208,7 +208,7 @@ const vmeBakselsDatering = [
     ["Karolingisch Mayen", "750 - 900"],
     ["Tating", "750 - 900"],
     ["Duisburg", "900 - 1000"],
-    ["Proto-Steengoed", "1200 - 1325"]*/
+    ["Proto-Steengoed", "1200 - 1325"]
 ]
 
 //14 VME Potten -> baksels
