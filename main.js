@@ -262,7 +262,6 @@ const vmeScherfBaksel = [
 ]
 
 //16 ABR Materiaal
-
 const abrMat = [
     ["Glas", "gls"],
     ["Keramiek", "ker"],
@@ -291,6 +290,28 @@ const abrMat = [
     ["textiel", "ote"],
     ["steen onbekend", "sxx"]
 ]
+
+//17 VME scherven -> baksels
+const lmePotBaksel = [
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/bijnasteengoed.png'>", "bijna steengoed"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/protosteengoed.png'>", "protosteengoed"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/steengoedonbehandeldSB.png'>", "steengoed onbehandeld sb"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/steengoedonbehandeldSBblos.png'>", "steengoed onbehandeld sb blos"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/steengoedbehandeldsiegburg.png'>", "steengoed behandeld siegburg"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/steengoedbehandeldflark.png'>", "steengoed behandeld flark"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/witbakkend.png'>", "witbakkend"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/roodbakkend_1.png'>", "roodbakkend"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/roodbakkend_2.png'>", "roodbakkend"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/roodbakkend_3.png'>", "roodbakkend"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/grijsbakkend.png'>", "grijsbakkend"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/hoogversierd.png'>", "hoogversierd"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/hafnerwaar.png'>", "hafnerwaar"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/majolicaspaans.png'>", "majolica spaans"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/majolicaitaliaans.png'>", "majolica/faience italiaans"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_potten/majolicanederlands.png'>", "majolica nederlands"],
+]
+
+//18 LME Scherven -> baksels
 
 const selectbtn = document.querySelectorAll('#selectButton');
 const btn = document.getElementById('answerButton');
@@ -371,6 +392,9 @@ function Select(){
             break;
         case "16":
             Overhoor(abrMat);
+            break;
+        case "17":
+            Overhoor(lmePotBaksel);
             break;
     }
 }
