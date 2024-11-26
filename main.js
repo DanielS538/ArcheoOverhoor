@@ -316,13 +316,24 @@ const lmeScherfBaksel = [
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/BehandeldSiegburg1.jpg'>", "steengoed behandeld siegburg"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/BehandeldSiegburg2.jpg'>", "steengoed behandeld siegburg"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Flark_Voorkant.jpg'><img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Flark_Achterkant.jpg'>", "steengoed behandeld flark"],
-    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Hafnerwaar_Voorkant.jpg'><img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Hafnerwaar_Achterkant.jpg'>", "hafnerwaar"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Hafnerwaar_voorkant.jpg'><img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Hafnerwaar_Achterkant.jpg'>", "hafnerwaar"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/grijsbakkend.jpg'>", "grijsbakkend"],
-    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Majolica_faience_Italiaans.jpg'>", "majolica faience italiaans"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Majolica_Faience_Italiaans.jpg'>", "majolica faience italiaans"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Pingsdorf.jpg'>", "pingsdorf"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Roodbakkend.jpg'>", "roodbakkend"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/SB_Blos.jpg'>", "steengoed onbehandeld sb blos"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Witbakkend_Voorkant.jpg'><img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Witbakkend_Achterkant.jpg'>", "witbakkend"],
+]
+
+//19 LME Baksel -> Jaartal
+const lmeBakselDatering = [
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
+    ["",""],
 ]
 const selectbtn = document.querySelectorAll('#selectButton');
 const btn = document.getElementById('answerButton');
