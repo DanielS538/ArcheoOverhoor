@@ -327,13 +327,19 @@ const lmeScherfBaksel = [
 
 //19 LME Baksel -> Jaartal
 const lmeBakselDatering = [
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
-    ["",""],
+    ["bijna steengoed","1275-1325"],
+    ["grijsbakkend","1150-1550"],
+    ["steengoed onbehandeld sb","1300-1400"],
+    ["steengoed onbehandeld sb blos","1350-1550"],
+    ["steengoed behandeld siegburg","1300-1550"],
+    ["steengoed behandeld flark","1300-nu"],
+    ["roodbakkend","1150-1500"],
+    ["hoogversierd","1175-1350"],
+    ["witbakkend","1350-1950"],
+    ["hafnerwaar","1300-1600"],
+    ["majolica spaans","1350-1650"],
+    ["majolica/faience italiaans","1400-1700"],
+    ["majolica nederlands","1475-nu"]
 ]
 const selectbtn = document.querySelectorAll('#selectButton');
 const btn = document.getElementById('answerButton');
@@ -420,6 +426,8 @@ function Select(){
             break;
         case "18":
             Overhoor(lmeScherfBaksel);
+        case "19":
+            Overhoor(lmeBakselDatering);
     }
 }
 
