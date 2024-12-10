@@ -318,7 +318,7 @@ const lmeScherfBaksel = [
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Flark_Voorkant.jpg'><img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Flark_Achterkant.jpg'>", "steengoed behandeld flark"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Hafnerwaar_voorkant.jpg'><img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Hafnerwaar_Achterkant.jpg'>", "hafnerwaar"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/grijsbakkend.jpg'>", "grijsbakkend"],
-    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Majolica_Faience_Italiaans.jpg'>", "majolica faience italiaans"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Majolica_Faience_Italiaans.jpg'>", "majolica/faience italiaans"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Pingsdorf.jpg'>", "pingsdorf"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/Roodbakkend.jpg'>", "roodbakkend"],
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/lme_scherven/SB_Blos.jpg'>", "steengoed onbehandeld sb blos"],
@@ -328,11 +328,11 @@ const lmeScherfBaksel = [
 //19 LME Baksel -> Jaartal
 const lmeBakselDatering = [
     ["bijna steengoed", "1275-1325"],
-    ["grijsbakkend", "1150-1550"],
     ["steengoed onbehandeld sb", "1300-1400"],
     ["steengoed onbehandeld sb blos", "1350-1550"],
     ["steengoed behandeld siegburg", "1300-1550"],
     ["steengoed behandeld flark", "1300-nu"],
+    ["grijsbakkend", "1150-1550"],
     ["roodbakkend", "1150-1500"],
     ["hoogversierd", "1175-1350"],
     ["witbakkend", "1350-1950"],
