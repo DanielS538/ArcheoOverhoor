@@ -462,7 +462,7 @@ function Select(){
             Overhoor(lmeBakselDatering);
             break;
         case "21":
-            Overhoor(ntScherfBaksel)
+            Overhoor(ntScherfBaksel);
             break;
     }
 }
