@@ -462,6 +462,7 @@ function Select(){
             Overhoor(lmeBakselDatering);
             break;
         case "21":
+            console.log("got past switchcase");
             Overhoor(ntScherfBaksel);
             break;
     }
