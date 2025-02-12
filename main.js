@@ -193,20 +193,20 @@ const culturenIJzertijd = [
 
 //13 VME baksels -> datering
 const vmeBakselsDatering = [
-    ["Hessens-Schortens", "500 - 900"],
+    //["Hessens-Schortens", "500 - 900"],
     ["Kogelpot", "800 - 1350"],
     ["Kogelpot, schelpgruismagering", "800 - 1000"],
     ["Kogelpot, bezemstreek", "1200 - 1300"],
     ["Paffrath", "900 - 1250"],
     ["Elmpt", "1100 - 1400"],
-    ["Merovingisch ruwwandig of Merovingisch Mayen", "400 - 750"],
+    //["Merovingisch ruwwandig of Merovingisch Mayen", "400 - 750"],
     ["Badorf/Walderberg", "725 - 900"],
     ["Reliëfbandamfoor", "800 - 1000"],
     ["Hunneschans", "885 - 925"],
     ["Maaslands wit of Andenne", "900 - 1700"],
     ["Pingsdorf", "900 - 1200"],
-    ["Karolingisch Mayen", "750 - 900"],
-    ["Tating", "750 - 900"],
+    //["Karolingisch Mayen", "750 - 900"],
+    //["Tating", "750 - 900"],
     ["Duisburg", "900 - 1000"],
     ["Proto-Steengoed", "1200 - 1325"]
 ]
@@ -339,8 +339,39 @@ const lmeBakselDatering = [
     ["hafnerwaar", "1300-1600"],
     ["majolica spaans", "1350-1650"],
     ["majolica/faience italiaans", "1400-1700"],
-    ["majolica nederlands", "1475-nu"]
+    ["majolica nederlands", "1475-nu"],
+    ["Proto-Steengoed", "1200 - 1325"]
 ]
+
+//21 NT scherf -> baksel
+const ntScherfBaksel = [
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/dubbelconisch.jpg'>", "tabakspijp dubbelconisch"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/majolicafaience_europees.jpg'>", "majolica faience europees"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/faience_nederlands.jpg'>", "faience nederlands"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/flark_2.jpg'>", "steengoed behandeld flark"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/flark.jpg'>", "steengoed behandeld flark"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/Hafnerwaar.jpg'>", "hafnerwaar"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/industrieel_steengoed.jpg'>", "industrieel steengoed"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/industrieel_wit.jpg'>", "industrieel wit"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/industrieel_wit2.jpg'>", "industrieel wit"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/industrieel_zwart.jpg'>", "industrieel zwart"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/industrieel_steengoed2.jpg'>", "industrieel steengoed"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/kromkop.jpg'>", "tabakspijp kromkop"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/majolica_nederlands.jpg'>", "majolica nederlands"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/majolica_nederlands2.jpg'>", "majolica nederlands"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/majolica_nederlands3.jpg'>", "majolica nederlands"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/Ovoide.jpg'>", "ovoide"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/porselein_azie.jpg'>", "porselein azie"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/rondbodem.jpg'>", "tabakspijp rondbodem"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/roodbakkend_friesland.jpg'>", "roodbakkend friesland"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/roodbakkend_nt.jpg'>", "roodbakkend nt"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/roodbakkend_werra.jpg'>", "roodbakkend werra"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/roodbakkend_nederrijn.jpg'>", "roodbakkend nederrijn"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/siegburg.jpg'>", "steengoed behandeld siegburg"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/weser.jpg'>", "weser"],
+    ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/witbakkend.jpg'>", "witbakkend"]
+]
+
 const selectbtn = document.querySelectorAll('#selectButton');
 const btn = document.getElementById('answerButton');
 const answer = document.getElementById('answer');
@@ -429,6 +460,9 @@ function Select(){
             break;
         case "19":
             Overhoor(lmeBakselDatering);
+            break;
+        case "21":
+            Overhoor(ntScherfBaksel)
             break;
     }
 }
