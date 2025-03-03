@@ -372,6 +372,35 @@ const ntScherfBaksel = [
     ["<img class='img-fluid'  src='/ArcheoOverhoor/images/nt_scherven/witbakkend.jpg'>", "witbakkend"]
 ]
 
+const ntBakselDatering = [
+    ["steengoed behandeld flark", "1300 - nu"],
+    ["steengoed behandeld siegburg", "1500 - 1632"],
+    ["steengoed behandeld w/sv", "1632 - nu"],
+    ["roodbakkend nt", "1500 - nu"],
+    ["werra aardewerk", "1575 - 1650"],
+    ["roodbakkend friesland", "1700 - 1900"],
+    ["roodbakkend nederrijn", "1700 - 1900"],
+    ["hafnerwaar", "1300 - 1600"],
+    ["witbakkend", "1350 - 1950"],
+    ["weser aardewerk", "1575 - 1625"],
+    ["majolica europa", "1400 - 1750"],
+    ["faience europa", "1400 - 1750"],
+    ["majolica nederland", "1475 - nu"],
+    ["faience nederland", "1625 - nu"],
+    ["porselein azie", "1550 - nu"],
+    ["porselein europa", "1775 - nu"],
+    ["industrieel steengoed", "1725 - 1760"],
+    ["industrieel steengoed scratch blue", "1740 - 1770"],
+    ["industrieel wit", "1750 - nu"],
+    ["industrieel rood", "1675 - nu"],
+    ["industrieel zwart", "1725 - nu"],
+    ["tabakspijp dubbelconisch", "1610 - 1700"],
+    ["tabakspijp trechter", "1675 - 1750"],
+    ["tabakspijp ovoide", "1730 - 1950"],
+    ["tabakspijp rondbodem", "1730 - 1950"],
+    ["tabakspijp kromkop", "1730 - 1950"]
+]
+
 const selectbtn = document.querySelectorAll('#selectButton');
 const btn = document.getElementById('answerButton');
 const answer = document.getElementById('answer');
@@ -464,6 +493,9 @@ function Select(){
         case "21":
             console.log("got past switchcase");
             Overhoor(ntScherfBaksel);
+            break;
+        case "22":
+            Overhoor(ntBakselDatering);
             break;
     }
 }
